@@ -1,0 +1,8 @@
+a:hover{
+  color: red;
+  scale: 1.05;
+  transition: 300ms;
+}
+.mrgn{
+  margin-left: 18%;
+}
