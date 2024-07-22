@@ -1,0 +1,15 @@
+.parent{
+  height: auto;
+}
+
+.option1{
+width: 22%;
+height: auto;
+background-color: rgb(255, 255, 255);
+margin-left: 9%;
+}
+.option2{
+width: 30%;
+height: auto;
+background-color: rgb(255, 255, 255);
+}
