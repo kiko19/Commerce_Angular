@@ -1,15 +1,87 @@
-.parent{
+.parent {
   height: auto;
 }
 
-.option1{
-width: 22%;
-height: auto;
-background-color: rgb(255, 255, 255);
-margin-left: 9%;
+.option1 {
+  width: 22%;
+  height: auto;
+  background-color: rgb(255, 255, 255);
+  margin-left: 2%;
 }
-.option2{
-width: 30%;
-height: auto;
-background-color: rgb(255, 255, 255);
+
+.option2 {
+  width: 20%;
+  height: auto;
+  background-color: rgb(255, 255, 255);
+}
+
+.option2 a {
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.option2 a:hover {
+  color: red !important;
+  transition: 500ms;
+  transform: scale(1.1);
+  margin-left: 3%;
+}
+
+@media (max-width: 1200px) {
+  .option1, .option2 {
+    width: 25%;
+  }
+
+  .carousel {
+    width: 50%;
+  }
+}
+
+@media (max-width: 992px) {
+  .option1, .option2 {
+    width: 30%;
+  }
+
+  .carousel {
+    width: 60%;
+  }
+}
+
+@media (max-width: 768px) {
+  .option1, .option2 {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    justify-content: center !important;
+  }
+
+  .carousel {
+    width: 100% !important;
+    margin-top: 1rem;
+  }
+
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .option1, .option2 {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    justify-content: center !important;
+
+  }
+
+  .carousel {
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
 }
