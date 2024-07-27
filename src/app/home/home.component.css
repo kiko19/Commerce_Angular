@@ -1,11 +1,13 @@
 .parent {
   height: auto;
 }
-
+.pic{
+  position: relative;
+}
 .option1 {
   width: 22%;
   height: auto;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(248, 246, 246);
   margin-left: 2%;
 }
 
@@ -28,7 +30,8 @@
 }
 
 @media (max-width: 1200px) {
-  .option1, .option2 {
+  .option1,
+  .option2 {
     width: 25%;
   }
 
@@ -38,7 +41,8 @@
 }
 
 @media (max-width: 992px) {
-  .option1, .option2 {
+  .option1,
+  .option2 {
     width: 30%;
   }
 
@@ -48,7 +52,8 @@
 }
 
 @media (max-width: 768px) {
-  .option1, .option2 {
+  .option1,
+  .option2 {
     width: 100%;
     margin-left: 0;
     margin-right: 0;
@@ -60,28 +65,92 @@
     margin-top: 1rem;
   }
 
-  .container {
+  .container-fluid {
     flex-direction: column;
     align-items: center;
   }
 }
 
 @media (max-width: 576px) {
-  .option1, .option2 {
+  .option1,
+  .option2 {
     width: 100%;
     margin-left: 0;
     margin-right: 0;
     justify-content: center !important;
-
   }
 
   .carousel {
-    width: 100%;
+    width: 100% !important;
     margin-top: 1rem;
   }
 
-  .container {
+  .container-fluid {
     flex-direction: column;
     align-items: center;
   }
+}
+
+.font-size-13px {
+  font-size: 13px;
+}
+.font-size-20px {
+  font-size: 16px;
+}
+
+.col-md-2,
+.col-sm-4,
+.col-6 {
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.offer img:hover {
+  transform: scale(1.01);
+  transition: 300ms;
+}
+.col-md-2:hover,
+.col-sm-4:hover,
+.col-6:hover {
+  transform: scale(1.04);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2), 0 2px 5px rgba(0, 0, 0, 0.19);
+  border-radius: 20px;
+}
+
+/* Ensure the component adapts well on different screen sizes */
+@media (max-width: 1199px) {
+  .col-lg-2 {
+    width: 16.66666667%;
+    flex: 0 0 16.66666667%;
+  }
+}
+
+@media (max-width: 991px) {
+  .col-md-3 {
+    width: 25%;
+    flex: 0 0 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  .col-sm-4 {
+    width: 33.33333333%;
+    flex: 0 0 33.33333333%;
+  }
+}
+
+@media (max-width: 575px) {
+  .col-6 {
+    width: 50%;
+    flex: 0 0 50%;
+  }
+}
+
+.w90 {
+  width: 95%;
+  margin-left: 2.7%;
+}
+.fc {
+  color: #f68b1e;
+  background-color: #fef3e9;
+  right: 5px;
+  top: 5px;
 }

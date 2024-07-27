@@ -1,0 +1,44 @@
+:host {
+  display: block;
+}
+div{
+  border-radius: 20px;
+}
+section {
+  padding: 2rem 0;
+}
+
+section .container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+h2 {
+  border-bottom: 2px solid #333;
+  padding-bottom: 0.5rem;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-item {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.contact-item h3 {
+  margin-top: 0;
+}
+
+.contact-item a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.contact-item a:hover {
+  text-decoration: underline;
+}

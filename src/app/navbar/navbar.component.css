@@ -5,7 +5,17 @@ a:hover{
 }
 .mrgn{
   margin-left: 15%;
+  width: 200px;
+}
+.ff{
+  font-weight: 700;
 }
 a img{
   width: 10%;
+}
+.width-10{
+  width: 150px;
+}
+a img{
+  width: 25%;
 }
