@@ -1,21 +1,63 @@
-a:hover{
+a:hover {
   color: red;
-  scale: 1.05;
-  transition: 300ms;
+  scale: 1.02;
+  transition: 200ms;
 }
-.mrgn{
+
+
+.mrgn {
   margin-left: 15%;
   width: 200px;
 }
-.ff{
+
+.ff {
   font-weight: 700;
 }
-a img{
-  width: 10%;
-}
-.width-10{
-  width: 150px;
-}
-a img{
+
+a img {
   width: 25%;
+}
+
+.navbar {
+  flex-wrap: nowrap;
+}
+
+.items {
+  flex-wrap: nowrap;
+}
+
+.nav-item {
+  white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+  .mrgn {
+    margin-left: 5%;
+    width: auto;
+  }
+
+  a img {
+    width: 50px;
+  }
+
+  .nav-item {
+    margin-left: 0 !important;
+    margin-right: 10px !important;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 576px) {
+  .ff {
+    font-size: 1rem;
+  }
+
+  a img {
+    width: 40px;
+  }
+
+  .nav-item {
+    padding: 10px 5px;
+    font-size: 12px;
+  }
 }

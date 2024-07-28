@@ -5,7 +5,12 @@
 .mrgn {
   margin-left: 5%;
 }
+.shipping{
+  font-size: 13px;
+  color: #df3737;
+  font-weight: 600;
 
+}
 @media (max-width: 576px) {
   .container {
     max-width: 100%;

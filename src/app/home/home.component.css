@@ -21,6 +21,10 @@
   text-decoration: none;
   font-size: 14px;
 }
+.offer img:hover{
+  transform: scale(1.01);
+  transition: 300ms;
+  }
 
 .option2 a:hover {
   color: red !important;
@@ -28,7 +32,9 @@
   transform: scale(1.1);
   margin-left: 3%;
 }
-
+.m1{
+  margin-left: 4% !important;
+}
 @media (max-width: 1200px) {
   .option1,
   .option2 {
